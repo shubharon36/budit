@@ -37,7 +37,7 @@ const ForStartups = () => {
               <Button 
                 size="lg"
                 className="bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white rounded-2xl px-8 py-6 text-lg font-semibold group w-full sm:w-auto"
-                onClick={() => window.location.href = 'tel:+1-555-123-4567'}
+                onClick={() => window.location.href = 'tel:+91 7984513324'}
               >
                 +91 7984513324
                 <Phone className="ml-2 h-5 w-5 group-hover:scale-110 transition-transform" />
