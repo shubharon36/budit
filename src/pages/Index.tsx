@@ -21,7 +21,7 @@ const Index = () => {
       <Services />
       <WhyBudIt />
       <ForStartups />
-      <ForVendors />
+      {/* <ForVendors /> */}
       <Contact />
       <FAQ />
       <Footer />

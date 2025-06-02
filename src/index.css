@@ -1,48 +1,47 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 15 15 20;
-    --foreground: 245 245 250;
+    --background: 248 250 252;
+    --foreground: 30 41 59;
 
-    --card: 25 25 30;
-    --card-foreground: 245 245 250;
+    --card: 255 255 255;
+    --card-foreground: 30 41 59;
 
-    --popover: 25 25 30;
-    --popover-foreground: 245 245 250;
+    --popover: 255 255 255;
+    --popover-foreground: 30 41 59;
 
-    --primary: 139 92 246;
+    --primary: 59 130 246;
     --primary-foreground: 255 255 255;
 
-    --secondary: 30 30 40;
-    --secondary-foreground: 200 200 210;
+    --secondary: 241 245 249;
+    --secondary-foreground: 51 65 85;
 
-    --muted: 35 35 45;
-    --muted-foreground: 150 150 170;
+    --muted: 226 232 240;
+    --muted-foreground: 71 85 105;
 
-    --accent: 45 45 55;
-    --accent-foreground: 200 200 210;
+    --accent: 219 234 254;
+    --accent-foreground: 30 58 138;
 
     --destructive: 239 68 68;
     --destructive-foreground: 255 255 255;
 
-    --border: 45 45 55;
-    --input: 45 45 55;
-    --ring: 139 92 246;
+    --border: 226 232 240;
+    --input: 241 245 249;
+    --ring: 59 130 246;
 
     --radius: 0.75rem;
 
-    --sidebar-background: 0 0% 8%;
-    --sidebar-foreground: 240 5.3% 86.1%;
-    --sidebar-primary: 240 5.9% 90%;
-    --sidebar-primary-foreground: 0 0% 8%;
-    --sidebar-accent: 240 4.8% 15.9%;
-    --sidebar-accent-foreground: 240 5.9% 90%;
-    --sidebar-border: 220 13% 21%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 255 255 255;
+    --sidebar-foreground: 30 41 59;
+    --sidebar-primary: 30 41 59;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 241 245 249;
+    --sidebar-accent-foreground: 30 41 59;
+    --sidebar-border: 226 232 240;
+    --sidebar-ring: 59 130 246;
   }
 }
 
@@ -52,11 +51,11 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans;
+    @apply bg-slate-50 text-slate-800 font-sans;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-display;
+    @apply font-display text-slate-900;
   }
 }
 

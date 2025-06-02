@@ -1,4 +1,3 @@
-
 import {
   Accordion,
   AccordionContent,
@@ -28,32 +27,32 @@ const FAQ = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-background to-accent/30">
+    <section className="py-20 bg-gradient-to-b from-blue-50 to-white">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 bg-soft-purple/10 rounded-full px-4 py-2 mb-6">
-              <HelpCircle className="w-4 h-4 text-soft-purple" />
-              <span className="text-sm font-medium text-soft-purple">FAQs</span>
+            <div className="inline-flex items-center gap-2 bg-blue-100 rounded-full px-4 py-2 mb-6">
+              <HelpCircle className="w-4 h-4 text-blue-600" />
+              <span className="text-sm font-medium text-blue-700">FAQs</span>
             </div>
             
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold text-foreground mb-6">
-              Frequently Asked <span className="text-transparent bg-gradient-to-r from-soft-purple to-soft-pink bg-clip-text">Questions</span>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold text-slate-900 mb-6">
+              Frequently Asked <span className="text-transparent bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text">Questions</span>
             </h2>
           </div>
 
-          <div className="bg-card/60 backdrop-blur-sm border border-border rounded-3xl p-8">
+          <div className="bg-white border border-blue-200 rounded-3xl p-8">
             <Accordion type="single" collapsible className="space-y-4">
               {faqs.map((faq, index) => (
                 <AccordionItem 
                   key={index} 
                   value={`item-${index}`}
-                  className="border border-border rounded-2xl px-6 bg-card/30"
+                  className="border border-blue-200 rounded-2xl px-6 bg-blue-50"
                 >
-                  <AccordionTrigger className="text-left font-display font-semibold text-foreground hover:no-underline py-6">
+                  <AccordionTrigger className="text-left font-display font-semibold text-slate-900 hover:no-underline py-6">
                     {faq.question}
                   </AccordionTrigger>
-                  <AccordionContent className="text-muted-foreground pb-6 leading-relaxed">
+                  <AccordionContent className="text-slate-700 pb-6 leading-relaxed">
                     {faq.answer}
                   </AccordionContent>
                 </AccordionItem>

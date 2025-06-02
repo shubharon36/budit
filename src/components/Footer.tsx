@@ -4,15 +4,15 @@ import { Mail, Calendar, Facebook, Instagram, Linkedin, Twitter, Youtube } from 
 
 const Footer = () => {
   const socialLinks = [
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Youtube, href: "#", label: "YouTube" },
+    { icon: Facebook, href: "https://www.facebook.com/profile.php?id=61575834962931", label: "Facebook" },
+    { icon: Instagram, href: "https://www.instagram.com/budit_co?igsh=MW9pc2g4c2h2MWx2MA==", label: "Instagram" },
+    { icon: Linkedin, href: "https://www.linkedin.com/company/budit-co/", label: "LinkedIn" },
+    // { icon: Twitter, href: "#", label: "Twitter" },
+    // { icon: Youtube, href: "#", label: "YouTube" },
   ];
 
   return (
-    <footer className="bg-gradient-to-t from-foreground to-foreground/95 text-background py-16">
+    <footer className="bg-gradient-to-r from-slate-800 via-slate-700 to-slate-800 bg-yellow-50/10 text-white py-16 relative overflow-hidden">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="max-w-4xl mx-auto text-center">
           {/* Logo */}
@@ -40,7 +40,7 @@ const Footer = () => {
             <Separator orientation="vertical" className="hidden sm:block h-4 bg-background/30" />
             <button className="flex items-center gap-2 text-background/80 hover:text-background transition-colors">
               <Calendar className="w-4 h-4" />
-              Schedule a Call
+              Schedule a Call - +91 7984513324
             </button>
           </div>
 
@@ -50,7 +50,7 @@ const Footer = () => {
               <a
                 key={social.label}
                 href={social.href}
-                className="w-10 h-10 bg-background/10 hover:bg-background/20 rounded-full flex items-center justify-center transition-colors"
+                className="w-10 h-10 bg-gray-700 hover:bg-yellow-600/20 rounded-full flex items-center justify-center transition-colors"
                 aria-label={social.label}
               >
                 <social.icon className="w-5 h-5 text-background/80 hover:text-background" />
