@@ -10,7 +10,7 @@ const Header = () => {
     { label: "How It Works", href: "#how-it-works" },
     { label: "Explore Services", href: "#services" },
     { label: "For Startups", href: "#for-startups" },
-    { label: "Join as Vendor", href: "#for-vendors" },
+    { label: "Join as Vendor", href: "#for-startups" },
     { label: "Contact", href: "#contact" }
   ];
    const handleNavClick = (href: string) => {
