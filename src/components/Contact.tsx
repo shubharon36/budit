@@ -54,7 +54,7 @@ const Contact = () => {
               </p>
               <Button 
                 className="w-full bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white rounded-2xl"
-                onClick={() => window.location.href = 'tel:+1-555-123-4567'}
+                onClick={() => window.location.href = 'tel:+91 7984513324'}
               >
                +91 7984513324
               </Button>
