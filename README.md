@@ -3,26 +3,9 @@
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fbudit.co.in)](https://budit.co.in)
 
 **BudIt** is a strategic platform dedicated to empowering startup founders and teams across all industries. This repository contains the **frontend implementation**, delivering a responsive, modern web experience in support of the BudIt vision.  
-( > Provide a brief statement reflecting its mission — “Empower startups”, etc.)
 
 ---
 
-##  Table of Contents
-
-- [Overview](#overview)  
-- [Tech Stack](#tech-stack)  
-- [Features](#features)  
-- [Getting Started](#getting-started)  
-  - [Prerequisites](#prerequisites)  
-  - [Installation](#installation)  
-  - [Running Locally](#running-locally)  
-  - [Building for Production](#building-for-production)  
-- [Project Structure](#project-structure)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)
-
----
 
 ##  Overview
 
