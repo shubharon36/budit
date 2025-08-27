@@ -33,7 +33,7 @@ BudIt connects startup founders, teams, and industry professionals with the reso
 ##  Tech Stack
 
 - **TypeScript** — For type-safe, scalable development (vast majority of codebase).  
-  (Detected via language stats: ~97.7% TypeScript) :contentReference[oaicite:1]{index=1}  
+  (Detected via language stats: ~97.7% TypeScript) 
 - **Vite** — Fast build tooling (via `vite.config.ts`).  
 - **Tailwind CSS** — Utility-first styling (`tailwind.config.ts`).  
 - **PostCSS**, **ESLint**, **Bun** (optional) — Tools for styling consistency, linting, and performance.  
